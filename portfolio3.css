@@ -54,12 +54,12 @@ color:white;
 }
 progress {
   
-  background: white;
+  background: #ff4da9;
   width: 500px;
 }
 
 progress {
-  color: white;
+  color: #ff4da9;
 }
 
 progress::-webkit-progress-value {
@@ -67,7 +67,7 @@ progress::-webkit-progress-value {
 }
 
 progress::-moz-progress-bar {
-  background: white;
+  background: #ff4da9;
 }s
 
 
