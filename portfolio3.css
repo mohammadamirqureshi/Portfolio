@@ -32,7 +32,16 @@ width: 20%;
 
 .my > .photo{
 height: 40%;
-
+}
+.photo > .myphoto {
+display: flex;
+justify-content: center;
+margin-top: 40px;
+}
+.mybio {
+	margin-top: 15px;
+	font-size: 15px;
+color:white;
 }
 
 .my > .mydetails{
@@ -52,15 +61,12 @@ color:white;
 	height: 1200px;
 	width: 70%;
 }
-.tablea progress {
-  
-  width: 80%;
-   background: white;
-}
+
 
 progress {
   
   background: white;
+  width: 500px;
   
 }
 
