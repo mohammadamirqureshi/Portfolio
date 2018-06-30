@@ -52,10 +52,16 @@ color:white;
 	height: 1200px;
 	width: 70%;
 }
+.tablea progress {
+  
+  width: 80%;
+   background: white;
+}
+
 progress {
   
   background: white;
-  width: 500px;
+  
 }
 
 progress {
