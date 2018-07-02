@@ -1,5 +1,3 @@
-
-
 .wrapper{
 display: flex;
 flex-wrap: wrap;
@@ -26,7 +24,7 @@ i
 .my{
 background-color: #ff80c1;
 height: 1200px;
-width: 20%;
+width: 25%;
 
 }
 
@@ -59,7 +57,7 @@ color:white;
 
 	background-color: #ffe6f3;
 	height: 1200px;
-	width: 70%;
+	width: 65%;
 }
 
 
@@ -118,5 +116,80 @@ h3{
 	}
 	.my > .mydetails{
 		height: 300px;
+	}
+
+	progress{
+		width: 400px;
+	}
+}
+
+@media screen and (max-width: 680px) {
+
+	progress{
+		width: 350px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+
+	progress{
+		width: 300px;
+	}
+}
+
+@media screen and (max-width: 550px) {
+
+
+.content {
+	height: 1400px;
+}
+	progress{
+		width: 260px;
+	}
+}
+
+@media screen and (max-width: 500px) {
+
+
+.content {
+	height: 1400px;
+}
+	progress{
+		width: 200px;
+	}
+}
+
+@media screen and (max-width: 410px) {
+
+
+
+.content {
+	height: 1500px;
+}
+	progress{
+		width: 150px;
+	}
+}
+
+@media screen and (max-width: 355px) {
+
+
+
+.content {
+	height: 1600px;
+}
+	progress{
+		width: 120px;
+	}
+}
+@media screen and (max-width: 335px) {
+
+
+
+.content {
+	height: 1700px;
+}
+	progress{
+		width: 100px;
 	}
 }
