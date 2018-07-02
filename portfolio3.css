@@ -99,17 +99,18 @@ h3{
 	.wrapper{
 		flex-direction: column;
 		align-items: center;
+		margin-top: 0px;
 
 	}
 
 	.my{
-		width: 80%;
+		width: 100%;
 		height: 700px;
 
 	}
 
 	.content{
-		width: 80%;
+		width: 100%;
 	}
 	.my > .photo{
 		height: 400px;
