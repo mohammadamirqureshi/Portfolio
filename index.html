@@ -1,117 +1,85 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>MyPortfolio changed the branch to test</title>
-  <link rel="stylesheet" type="text/css" href="portfolio3.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <meta name="viewport" content="width=device-width , initial-scale=1.0 , maximum-scale=1.0"> 
+    <meta charset="UTF-8">
+    <title>My-Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rakkas" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300i" rel="stylesheet">
 </head>
 <body>
-  
-<div class="wrapper">
-
-  <div class="my">
-    <div class="photo">
-      <div class="myphoto">
-      <img src="myphoto.jpg">
+<div class="cover">
+    <div class="coverwrap">
+        <div class="myphoto">
+            <img src="rsz_photonotavailable.png">
+        </div>
+        <div class="mybio"></div>
     </div>
-    <table class="mybio" align="center">
-      <tr>
-        <td>Mohammad Amir Qureshi</td>
-      </tr>
-      <tr>
-        <td>B.tech ECE</td>
-      </tr>
-      <tr>
-        <td>2017 - 2021</td>
-      </tr>
-      <tr>
-        <td>Delhi Technological University</td>
-      </tr>
-    </table>
-    </div>
-    <div class="mydetails">
-      <br>
-      <ul>
-      <li><div class="email"> <em> Email : aamiraqureshi56@gmail.com</em>
-      </div></li> <p></p>
-      <li><div class="mobile">  <em> Mobile : ******1101</em>
-      </div></li> <p></p>
-      <li><div class="github"> <em> Github User name : mohammadamirqureshi</em> 
-      </div></li><p></p>
-      <li><div class="linkedin"> <em> Linked.in : .......</em>
-      </div></li><p></p>
-      </ul>
-    </div>
-  </div>
-  <div class="content">
-    <div class="project">
-      
-      <h1>    <i class="fa fa-file-text" style="font-size:20px;color:white"></i>  Project</h1>
-      <h3>Cook It Like Ramsay</h3>
-      <ul>  
-      <li><p>I am currently working on my project named Cook it like Ramsay. It is a website giving users many different recipies and even one can subscribe and get recipies messeged or emailed on thier account. It will also have a special blog with food related articles and daily tips on cooking from the greatest Chefs in the world. So in short it is going to be a good and loveable website for all the food enthusiasts out there.   </p></li> </ul>
-
-    </div>
-    <div class="experience">
-      <h1>    <i class="fa fa-graduation-cap" style="font-size:20px;color:white"></i>  Experience</h1>
-      <ul>
-        <li><p>Learned Web Development at Coding Blocks.</p></li>
-        <li><p>Worked in Sahitya for one year as content writer and social media influencer.</p></li>
-      </ul>
-    </div>
-    <div class="education">
-      <h1>    <i class="fa fa-university" style="font-size:20px;color:white"></i>  Education</h1>
-      <ul>
-        <li><p>B.tech Electronics and Communication</p><p>Batch : 2017 - 2021</p><p>Delhi Technological University</p></li>
-        <li><p>Passed Class 12 in 2016</p><p>Kendriya Vidyalaya Delhi</p></li>
-      </ul>
-    </div>
-
-    <div class="skills">
-      <h1>     <i class="fa fa-android" style="font-size:20px;color:white"></i> Technical Skills</h1>
-      <p></p>
-      <table class="tablea">
-        <tr>
-          <td>C : </td>
-          <td><progress value="70" max="100"></td>
-        </tr>
-        <tr>
-          <td>C++ : </td>
-          <td><progress value="85" max="100"></td>
-        </tr>
-        <tr>
-          <td>HTML : </td>
-          <td><progress value="90" max="100"></td>
-        </tr>
-        <tr>
-          <td>CSS : </td>
-          <td><progress value="75" max="100"></td>
-        </tr>
-        <tr>
-          <td>JavaScript : </td>
-          <td><progress value="65" max="100"></td>
-        </tr>
-        <tr>
-          <td>Java : </td>
-          <td><progress value="60" max="100"></td>
-        </tr>
-      </table>
-       
-      
-    </div>
-    <div class="hobby">
-      <h1>     <i class="fa fa-music" style="font-size:20px;color:white"></i>  Hobby</h1>
-      <ul>
-      <li><p>Learning Programming Languages</p></li>
-      <li><p>Listening Music</p></li>
-      <li><p>Reading Literature</p></li>
-      <li><p>Writing Blogs and poems</p></li>
-    </ul>
-    </div>
-  </div>
-  
 </div>
 
+<div class="wrapper">
+    <div class="navigation" id="myNav">
+            <a id="navmy" href="#my">Me</a>
+            <a id="navprojects" href="#projects">Projects</a>
+            <a id="naveducation" href="#education">Education</a>
+            <a id="navskills" href="#skills">Skills</a>
+            <a id="navhobby" href="#hobby">Hobbies</a>
+            <a class="icon"  id="resicon"><i id="iconchange" class="fa fa-bars"></i></a>
+    </div>
+
+    <div id="my"></div>
+    <div id="projects">
+        <div id="project1">
+            <div class="heading"><i class="fa fa-file-text"></i>Projects</div>
+            <div class="project1Img animation-element bounce-up ">
+                <img class="subject" src="reviewlogo1.jpg">
+            </div>
+            <div class="project1Content">
+                <p style="margin-left: 20px;font-size: 22px;font-family: 'Fjalla One', sans-serif;"><strong>Honest Reviews</strong></p>
+               <ul>
+                   <li><p>This is a website using TMDB API giving users movie and TV-Shows or Web Series reviews and also
+                       celebrities info as you can search for movies , TV-Shows or Web series and Celebrities and get information related to them.
+                       At the homepage you can see popular and now playing theaters movies or currently airing TV-Shows and popular celebrities currently in news.</p></li>
+               </ul>
+            </div>
+        </div>
+    </div>
+    <div id="education">
+        <div class="college">
+            <div class="heading"><i class="fa fa-graduation-cap"></i>College</div>
+            <div class="collegeImg animation-element bounce-up">
+                <img class="subject" src="college.jpg">
+            </div>
+            <div class="collegeContent">
+                <p style="margin-left: 20px;font-size: 22px;margin-top: 40px;font-family: 'Fjalla One', sans-serif;"><strong>Delhi Technological University</strong></p>
+                <ul>
+                    <li><p>Currently Iam pursuing my B.tech from Delhi Technological university in Electronics and
+                    Communication.</p></li>
+                </ul>
+            </div>
+        </div>
+        <div class="school">
+            <div class="heading"><i class="fa fa-book"></i>School</div>
+            <div class="schoolImg animation-element bounce-up">
+                <img class="subject" src="school.jpg">
+            </div>
+            <div class="schoolContent">
+                <p style="margin-left: 20px;font-size: 22px;margin-top: 40px;font-family: 'Fjalla One', sans-serif;"><strong>Kendriya Vidyalaya</strong></p>
+
+            </div>
+        </div>
+    </div>
+    <div id="skills"></div>
+    <div id="hobby"></div>
+</div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
