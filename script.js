@@ -1,9 +1,7 @@
 $(function () {
 
-    $('.wrapper').hide();
     $('.cover').click(function () {
         $('.cover').css('transform','translateY(-110%)');
-        $('.wrapper').show();
     });
 
     $('#resicon').on('click' , function () {

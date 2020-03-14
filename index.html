@@ -9,36 +9,76 @@
     <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Rakkas" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
 </head>
 <body>
-<div class="cover">
+<!-- <div class="cover">
     <div class="coverwrap">
         <div class="myphoto">
             <img src="rsz_photonotavailable.png">
         </div>
         <div class="mybio"></div>
     </div>
-</div>
+</div> -->
 
 <div class="wrapper">
     <div class="navigation" id="myNav">
             <a id="navmy" href="#my">Me</a>
+            <a id="navworkExperience" href="#workExperience">Work Experience</a>
             <a id="navprojects" href="#projects">Projects</a>
             <a id="naveducation" href="#education">Education</a>
             <a id="navskills" href="#skills">Skills</a>
-            <a id="navhobby" href="#hobby">Hobbies</a>
+            <a id="namyInterests" href="#myInterests">Interests</a>
             <a class="icon"  id="resicon"><i id="iconchange" class="fa fa-bars"></i></a>
     </div>
 
-    <div id="my"></div>
+    <div id="my">
+        <span id="myPhoto"><img id="myPic" src="mypic.png"></span>
+        <span id="myBio">
+        <span id="name">Mohammad Amir Qureshi</span>
+        <span class="bioOther" id="degree"><br/><br/>Bachelor of Technology in Electronics and Communication<br/>Delhi Technological University (2017-2021)<br/><br/><a class="lin" href="mailto:aamiraqureshi65@gmail.com"><i class=" material-icons" style="padding-top: 5px;">email</i> aamiraqureshi65@gmail.com</a>
+            <br/><br/><a class="lin" href="https://www.linkedin.com/in/mohammad-amir-qureshi-4949491a4" target="_blank"><i class='fab fa-linkedin' style="size: 5px;"></i> Mohammad Amir LinkedIn</a><br/><br/><a class="lin" href="https://github.com/mohammadamirqureshi"><i class='fab fa-github' ></i> My GitHub Acoount</a></span>
+        </span>
+    </div>
+
+    <div id="workExperiences">
+        <div class="heading"><i class="fa fa-briefcase"></i>Work Experiences</div>
+        <div id="workExperience" class="ImgContent">
+            <div class="ImageRight animation-element bounce-up ">
+                <img class="subject" src="MESLogo.png" style="margin-right: 20px;">
+            </div>
+            <div class="ContentLeft">
+                <p style="margin-left: 20px;font-size: 22px;font-family: 'Fjalla One', sans-serif;"><strong>Summer Internship</strong></p>
+                <p style="margin-left: 20px;font-size: 19px;font-family: 'Fjalla One', sans-serif;">Military Engineer Services (June 2019 - July 2019)</p>
+               <ul>
+                   <li><p>Learned SCADA system used in electrical power supply grid. Worked in tough situations like power out in several areas and high repair demands were monitored and controlled from the system. Data scheduling of Power consumption was done on daily basis.<br/>Overall it was a very gainful experience for me while working there as I got to learn from their very knowledgeable employees.</p></li>
+               </ul>
+            </div>
+        </div>
+
+        <div id="workExperience" class="ImgContent">
+            <span class="ImageLeft animation-element bounce-up ">
+                <img class="subject" src="ssa-logo.png" style="height: 200px; width: 350px; margin-top: 50px;">
+            </span>
+            <span class="ContentRight">
+                <p style="margin-left: 20px;font-size: 22px;font-family: 'Fjalla One', sans-serif;"><strong>Volunteered Work</strong></p>
+                <p style="margin-left: 20px;font-size: 19px;font-family: 'Fjalla One', sans-serif;">Student Solar Ambassador</p>
+               <ul>
+                   <li><p>Volunteerly worked as a trainer at student solar ambassador workshop and contributed in creating two world records on 2nd Oct 2019. Led a team of 25 school students and helped them in making of their own solar lamps and shared knowledge about solar energy and creating awareness regarding the more usage of enviroment friendly energy sources.<br/><a class="lin" href="https://drive.google.com/folderview?id=1-0KJ8KRoE5HUKdggEfSl9R46nI6vRMCz" target="_blank">My certificates for this event are linked here.</a></p></li>
+               </ul>
+            </span>
+        </div>
+    </div>
+
     <div id="projects">
-        <div id="project1">
-            <div class="heading"><i class="fa fa-file-text"></i>Projects</div>
-            <div class="project1Img animation-element bounce-up ">
+        <div class="heading"><i class="fa fa-file-text"></i>Projects</div>
+        <div id="project" class="ImgContent">
+            <div class="ImageRight animation-element bounce-up ">
                 <img class="subject" src="reviewlogo1.jpg">
             </div>
-            <div class="project1Content">
-                <p style="margin-left: 20px;font-size: 22px;font-family: 'Fjalla One', sans-serif;"><strong>Honest Reviews</strong></p>
+            <div class="ContentLeft">
+                <p style="margin-left: 20px;font-size: 22px;font-family: 'Fjalla One', sans-serif;"><strong><a class="lin" href="https://gangsta-avy.github.io/Gangsta.github.io/" target="_blank">Honest Reviews</a></strong></p>
                <ul>
                    <li><p>This is a website using TMDB API giving users movie and TV-Shows or Web Series reviews and also
                        celebrities info as you can search for movies , TV-Shows or Web series and Celebrities and get information related to them.
@@ -47,35 +87,163 @@
             </div>
         </div>
     </div>
-    <div id="education">
-        <div class="college">
-            <div class="heading"><i class="fa fa-graduation-cap"></i>College</div>
-            <div class="collegeImg animation-element bounce-up">
-                <img class="subject" src="college.jpg">
+    <div id="project" class="ImgContent">
+            <div class="ImageLeft animation-element bounce-up ">
+                <img class="subject" src="arduino.png" style="height: 300px; width: 400px;">
             </div>
-            <div class="collegeContent">
-                <p style="margin-left: 20px;font-size: 22px;margin-top: 40px;font-family: 'Fjalla One', sans-serif;"><strong>Delhi Technological University</strong></p>
-                <ul>
-                    <li><p>Currently Iam pursuing my B.tech from Delhi Technological university in Electronics and
-                    Communication.</p></li>
-                </ul>
+            <div class="ContentRight">
+                <p style="margin-left: 20px;font-size: 22px;font-family: 'Fjalla One', sans-serif;"><strong>Distance Measurement Device</strong></p>
+               <ul>
+                   <li><p>This is a distance measurement electronic device using Arduino UNO and ultrasonic sensor. Code for this was written in Arduino IDE using the formula distance= speed x time, where speed was taken 340 m/s and time was taken by the wave to cover the incoming and outgoing distance. And by this distance was calculated.</p></li>
+               </ul>
+            </div>
+    </div>
+
+    <div id="education">
+        <div class="heading"><i class="fa fa-institution"></i>Education</div>
+        <div id="college" class="ImgContent">
+            <div class="ImageRight animation-element bounce-up ">
+                <img class="subject" src="college.jpg" style="margin-right: 20px;">
+            </div>
+            <div class="ContentLeft">
+                <p style="margin-left: 20px;font-size: 22px;font-family: 'Fjalla One', sans-serif;"><strong>College</strong></p>
+                <p style="margin-left: 20px;font-size: 19px;font-family: 'Fjalla One', sans-serif;">Delhi Technological University (2017 - 2021)</p>
+               <ul>
+                   <li><p>I am currently in my third year of engineering graduation from Delgi Technological University (Fromerly Delhi College of Engineering) and my specialization is Electronics and Communication. While pursuing my college degree here I have gained many life longing experiences and this place has just not made me a better engineer but also a better human being all because of faculty members, staff and my colleagues.</p></li>
+               </ul>
             </div>
         </div>
-        <div class="school">
-            <div class="heading"><i class="fa fa-book"></i>School</div>
-            <div class="schoolImg animation-element bounce-up">
-                <img class="subject" src="school.jpg">
-            </div>
-            <div class="schoolContent">
-                <p style="margin-left: 20px;font-size: 22px;margin-top: 40px;font-family: 'Fjalla One', sans-serif;"><strong>Kendriya Vidyalaya</strong></p>
 
+        <div id="school" class="ImgContent">
+            <div class="ImageLeft animation-element bounce-up ">
+                <img class="subject" src="school.jpg" style="height: 200px; width: 350px; margin-top: 50px;">
+            </div>
+            <div class="ContentRight">
+                <p style="margin-left: 20px;font-size: 22px;font-family: 'Fjalla One', sans-serif;"><strong>School</strong></p>
+                <p style="margin-left: 20px;font-size: 19px;font-family: 'Fjalla One', sans-serif;">kendriya Vidyalaya (2004 - 2016)</p>
+               <ul>
+                   <li><p>I have completed my twelve years of schooling from kendriya Vidyalaya No. 1 Delhi Cantonment, which was affilated to CBSE board. I attained 78% in 12th class and 83.6% in 10th class. Also I have learned many important values from my school teachers who helped me throughout my school life in my academics and other aspects of education also. My school time will always be a positive experience and memory in my life.</p></li>
+               </ul>
             </div>
         </div>
     </div>
-    <div id="skills"></div>
-    <div id="hobby"></div>
+
+    <div class="heading"><i class="fa fa-bar-chart"></i>Skills</div>
+    <div id="skills" class="skills" >
+    
+       
+         <div class="skill1" class="ImgContent">
+            <span >
+                <img src="c++.png" style="margin-left: 20px;margin-top: 20px; height: 50px;">
+            </span>
+            <span class="ContentLeft">
+                <p style="margin-left: 20px;font-size: 22px;font-family: 'Fjalla One', sans-serif;"><strong>C++ Programming</strong></p>
+                <p style="margin-left: 20px;font-size: 19px;font-family: 'Fjalla One', sans-serif;">Advanced</p>
+               
+            </span>
+        </div>
+         <div class="skill2" class="ImgContent">
+            <span >
+                <img src="JavaScript.jpg" style="margin-left: 20px;margin-top: 20px; height: 70px;">
+            </span>
+            <span class="ContentLeft">
+                <p style="margin-left: 20px;font-size: 22px;font-family: 'Fjalla One', sans-serif;"><strong>JavaScript</strong></p>
+                <p style="margin-left: 20px;font-size: 19px;font-family: 'Fjalla One', sans-serif;">Intermediate</p>
+               
+            </span>
+        </div>
+         <div class="skill3" class="ImgContent">
+            <span >
+                <img  src="html.png" style="margin-left: 20px;margin-top: 20px; height: 50px;">
+            </span>
+            <span class="ContentLeft">
+                <p style="margin-left: 20px;font-size: 22px;font-family: 'Fjalla One', sans-serif;"><strong>HTML</strong></p>
+                <p style="margin-left: 20px;font-size: 19px;font-family: 'Fjalla One', sans-serif;">Advanced</p>
+               
+            </span>
+        </div>
+         <div class="skill4" class="ImgContent">
+            <span >
+                <img  src="css.png" style="margin-left: 20px;margin-top: 20px; height: 50px;">
+            </span>
+            <span class="ContentLeft">
+                <p style="margin-left: 20px;font-size: 22px;font-family: 'Fjalla One', sans-serif;"><strong>CSS</strong></p>
+                <p style="margin-left: 20px;font-size: 19px;font-family: 'Fjalla One', sans-serif;">Intermediate</p>
+               
+            </span>
+        </div>
+         <div class="skill5" class="ImgContent">
+            <span >
+                <img  src="ds.png" style="margin-left: 20px;margin-top: 20px; height: 100px;">
+            </span>
+            <span class="ContentLeft">
+                <p style="margin-left: 20px;font-size: 22px;font-family: 'Fjalla One', sans-serif;"><strong>Data Structures</strong></p>
+                <p style="margin-left: 20px;font-size: 19px;font-family: 'Fjalla One', sans-serif;">Intermediate</p>
+               
+            </span>
+        </div>
+        <div class="skill6" class="ImgContent">
+            <span >
+                <img  src="algo.png" style="margin-left: 20px;margin-top: 20px; height: 50px;">
+            </span>
+            <span class="ContentLeft">
+                <p style="margin-left: 20px;font-size: 22px;font-family: 'Fjalla One', sans-serif;"><strong>Computer Science Algorithms</strong></p>
+                <p style="margin-left: 20px;font-size: 19px;font-family: 'Fjalla One', sans-serif;">Intermediate</p>
+               
+            </span>
+        </div>
+    
+
+    </div>
+
+    <div id="myInterests">
+        <div class="heading"><i class="fa fa-thumbs-up"></i>My Interests</div>
+        <div class="ImgContent">
+            <div class="ImageRight">
+                <img src="tech.png" style="margin-right: 20px;">
+            </div>
+            <div class="ContentLeft">
+                <p style="margin-left: 20px;font-size: 22px;font-family: 'Fjalla One', sans-serif;"><strong>Learning about new technologies</strong></p>
+                
+               <ul>
+                   <li><p>I am very much interested in learning about new technologies and new technical trends trending in world currently and gaining knowledge about everything related to it. </p></li>
+               </ul>
+            </div>
+        </div>
+
+        <div class="ImgContent">
+            <div class="ImageLeft">
+                <img  src="volunteer.png" style="height: 200px; width: 350px; margin-top: 50px;">
+            </div>
+            <div class="ContentRight">
+                <p style="margin-left: 20px;font-size: 22px;font-family: 'Fjalla One', sans-serif;"><strong>Volunteering</strong></p>
+                
+               <ul>
+                   <li><p>I am very enthusiatic about volunteering as it give me new challenges every time and I learn how to tackle them. </p></li>
+               </ul>
+            </div>
+        </div>
+
+        <div class="ImgContent">
+            <div class="ImageRight">
+                <img src="literature.png" style="margin-right: 20px;">
+            </div>
+            <div class="ContentLeft">
+                <p style="margin-left: 20px;font-size: 22px;font-family: 'Fjalla One', sans-serif;"><strong>Literature</strong></p>
+                
+               <ul>
+                   <li><p>I really love reading and writing blogs, poem and short stories aslo I run a page on instagram where I post my own writings. </p></li>
+               </ul>
+            </div>
+        </div>
+    </div>
+
+    
+
+
 </div>
 
+<div id="footer"></div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>

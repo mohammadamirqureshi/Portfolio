@@ -1,5 +1,5 @@
-.cover{
-    height: 100%;
+/*.cover{
+    height:100%;
     width: 100%;
     background-color: #66b3ff;
     position: absolute;
@@ -9,20 +9,66 @@
 
 .coverwrap{
   display: grid;
+}*/
+
+
+.lin{
+    color: black;
+    text-decoration: none;
+    text-underline-position: none;
 }
 
-.myphoto{
-    grid-column-start: 0;
-    grid-column-end: 1;
-    grid-row-start: 0;
-    grid-row-end: 1;
+p{
+    font-family: 'Roboto', sans-serif;
 }
 
-.mybio{
+#my{
+     display:grid;
+    font-size: 17px;
+    /*grid-template-columns: 350px auto;*/
+    height: 100%;
+    width: 100%;
+    padding-bottom: 20px;
+    background-color: #a7dbd8;
+
+}
+
+
+#myPic{
+    height: 300px;
+   
+}
+
+#myPhoto{
+    margin-left: 50px;
+    margin-top: 30px;
+    grid-row-start: 1;
+    grid-row-end: 2;
     grid-column-start: 1;
     grid-column-end: 2;
-    grid-row-start: 0;
-    grid-row-end: 1;
+    width: 350px;
+
+}
+
+#myBio{
+   grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    margin-top: 50px;
+   
+    
+}
+
+#name{
+font-family: 'Rakkas', cursive;
+    font-size: 40px;
+}
+
+.bioOther{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+
 }
 
 .wrapper{
@@ -58,19 +104,99 @@
     cursor: pointer;
 }
 
-#my{
-    height: 400px;
-    width: 100%;
-    background-color: #a7dbd8;
+.ImgContent{
+    display: grid;
+    margin-top: 60px;
 }
+
+.ContentRight{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    margin-top: 20px;
+}
+
+.ImageLeft{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    margin-left: 20px;
+}
+
+
+.ContentLeft{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    margin-left: 20px;
+}
+
+.ImageRight{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    margin-top: 20px;
+}
+
 
 #projects{
     padding: 10px;
 }
 
-#project1{
-    display: grid;
+.skills{
+ display: inline-grid; 
+ margin-top: 70px;
+ width: 100%;
+ justify-content: space-around;
 }
+
+
+.skill1{
+ grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.skill2{
+grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.skill3{
+grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.skill4{
+grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.skill5{
+grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.skill6{
+grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
 .heading{
     grid-column-start: 0;
     grid-column-end: 1;
@@ -79,24 +205,7 @@
     font-size: 30px;
     padding-top: 20px;
 }
-.project1Img{
-   grid-column-start: 0;
-    grid-column-end: 1;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    margin-right: 60px;
-    margin-left: 50px;
-    padding-top: 40px;
-}
 
-.project1Content{
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    font-size: 20px;
-    font-family: 'Roboto', sans-serif;
-}
 
 .fa{
     padding: 6px;
@@ -106,48 +215,11 @@
     margin-left: 10px;
 }
 
-.college{
-    display: grid;
-    margin-top: 60px;
+#footer{
+    margin-top: 75px;
+    background-color: black;
+    height: 10px;
 }
-
-.collegeContent{
-    grid-column-start: 0;
-    grid-column-end: 1;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    font-family: 'Roboto', sans-serif;
-    margin-left: 20px;
-}
-
-.collegeImg{
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    margin-top: 20px;
-}
-
-.school{
-    display:grid;
-    margin-top: 60px;
-}
-
-.schoolImg{
-    grid-column-start: 0;
-    grid-column-end: 1;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    margin-top: 60px;
-}
-
-.schoolContent{
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 2;
-}
-
 
 /* ---------------------------------------------------------------------------*/
 /*animation element*/
@@ -191,7 +263,7 @@
         float: right;
         display: block;
     }
-    .navigation.resNavigation {position: relative;}
+    .navigation.resNavigation {position: sticky;}
     .navigation.resNavigation a.icon {
         float: right;
     }
@@ -203,4 +275,109 @@
     .navigation{
         display: block;
     }
+
+.ImgContent{
+ justify-items: center;
+ margin: auto;
+}
+
+.ContentRight{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    margin-top: 10px;
+}
+
+.ImageLeft{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    margin-left: 10px;
+}
+
+
+.ContentLeft{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    margin-left: 10px;
+}
+
+.ImageRight{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    margin-top: 10px;
+} 
+
+.skills{
+    justify-items: center;
+}
+
+.skill1{
+ grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.skill2{
+grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.skill3{
+grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.skill4{
+grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.skill5{
+grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.skill6{
+grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+#my{
+ justify-items: center;
+}
+
+#myPic{
+    height: 250px;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+#myBio{
+   grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    
+}
+
 }
