@@ -76,6 +76,9 @@ font-family: 'Rakkas', cursive;
     flex-wrap: wrap;
     font-family: 'Fjalla One', sans-serif;
     font-size: 20px;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
 }
 
 .navigation{
